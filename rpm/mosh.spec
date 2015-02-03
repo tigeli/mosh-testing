@@ -26,7 +26,7 @@ Mosh is a remote terminal application that supports:
     of "network lag" on high-latency connections.
 
 %prep
-%setup -q -n %{name}-%{version}/%{name}
+%setup -q -n %{name}-%{version}/%{name}-fork
 
 %build
 # Use upstream's more aggressive hardening instead of Fedora's defaults
